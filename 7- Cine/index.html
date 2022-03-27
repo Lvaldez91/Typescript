@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+    <div class="d-flex justify-content-md-center align-items-center vh-100">
+        <div class="row m-5 bg-light p-5 rounded-3">
+            <div class="row text-center">
+                <p class="display-3">Cine++</p>
+            </div>
+            <div class="row mt-5">
+                <select class="form-select" name="idService" id="idService">
+                    <option selected value="0">Select your service</option>
+                    <option value="1">HBO MAX</option>
+                    <option value="2">Netflix</option>
+                    <option value="3">Disney</option>
+                </select>
+                <div class="invalid-feedback" id="msgErrorService">
+                    Select one item of the service.
+                </div>
+            </div>
+            
+
+            <div class="row mt-5">
+                <select class="form-select" name="idOperation" id="idOperation">
+                    <option selected value="0">Select your Operation</option>
+                    <option value="1">Renew subscription</option>
+                    <option value="2">Cancel members</option>
+                    <option value="3">Login Sesion</option>
+                </select>
+                <div class="invalid-feedback" id="msgErrorOperation">
+                    Select one item of the Operation.
+                </div>
+            </div>
+            <div class="row mt-5">
+                <button id="btnExecution"> Execute Operation</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

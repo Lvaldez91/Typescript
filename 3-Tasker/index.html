@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tester</title>
+    <link href="http://fonts.googleapis.com/com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <p>
+            <label for="new-task">Add Task</label>
+            <input id="new-task" type="text" />
+            <button id="add-task">add Task</button>
+        </p>
+        <h3>Task</h3>
+        <ul id="incomplete-tasks">
+            <li>
+                <input type="checkbox" />
+                <label>Hacer Ejercicio</label>
+            </li>
+            <li>
+                <input type="checkbox" />
+                <label>Iniciar Curso Ingles</label>
+            </li>
+        </ul>
+        <h3>Completed Task</h3>
+        <ul id="completed-tasks">
+            <li>
+                <input type="checkbox" />
+                <label>Curso de TypeScript</label>
+            </li>
+            <li>
+                <input type="checkbox" />
+                <label>Iniciar Curso JS</label>
+            </li>
+            <li>
+                <input type="checkbox" />
+                <label>Empezar dieta</label>
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
