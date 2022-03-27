@@ -4,7 +4,7 @@
 
     //const retirarDinero = ( montoRetirar: number) => { // esta es ptra forma de escribir promise
     const retirarDinero = ( montoRetirar: number) : Promise<number> => {
-        let dinero = 7500; 
+        let dinero = 7500;
         
         return new Promise((resolve, reject) => {
             if(montoRetirar > dinero){
