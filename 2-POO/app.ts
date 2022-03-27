@@ -25,7 +25,6 @@ class Rectangulo{
     }
 }
 
-
 let variable : number = 0;
 // creando instancias de clases, se crea un nuevo objeto instanciando  una clase
 let rentangulo : Rectangulo = new Rectangulo(123, 123,'blue');
